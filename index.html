@@ -2,20 +2,59 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAXI - Control Center</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; background: #f4f4f4; }
-        .card { background: white; padding: 30px; border-radius: 10px; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        h1 { color: #0066ff; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            text-align: center; 
+            padding: 50px 20px; 
+            background-color: #f0f2f5; 
+            color: #1c1e21; 
+        }
+        .container { 
+            background: white; 
+            padding: 40px; 
+            border-radius: 12px; 
+            display: inline-block; 
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1); 
+            max-width: 500px;
+            border-top: 6px solid #0066ff;
+        }
+        h1 { color: #0066ff; margin-bottom: 10px; font-size: 28px; }
+        p { line-height: 1.6; color: #4b4b4b; }
+        .status { 
+            display: inline-block; 
+            background: #e7f3ff; 
+            color: #1877f2; 
+            padding: 5px 15px; 
+            border-radius: 20px; 
+            font-weight: bold; 
+            font-size: 0.9em;
+            margin-top: 15px;
+        }
+        .footer { 
+            margin-top: 30px; 
+            font-size: 0.85em; 
+            color: #90949c; 
+            border-top: 1px solid #ebedf0;
+            padding-top: 20px;
+        }
+        a { color: #0066ff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
-    <div class="card">
+    <div class="container">
         <h1>MAXI Control Center</h1>
-        <p>Aplicación de gestión publicitaria y análisis de datos.</p>
-        <p>Estado del sistema: <strong>En desarrollo / Pruebas internas</strong></p>
-        <hr>
-        <p><small>© 2026 ALBRA Group - Todos los derechos reservados</small></p>
+        <p>Plataforma de inteligencia artificial para la optimización de activos publicitarios y análisis estratégico de mercado.</p>
+        
+        <div class="status">● Entorno de Desarrollo Activo</div>
+        
+        <div class="footer">
+            © 2026 ALBRA Group | Johan Bra. <br>
+            <a href="PRIVACY.md">Política de Privacidad</a> | <a href="mailto:albragroup8@gmail.com">Soporte</a>
+        </div>
     </div>
 </body>
 </html>
